@@ -1,7 +1,7 @@
 import pickle
 import argparse
 
-SAVER_FILE = "model.ckpt"
+SAVER_FILE = "model/model.ckpt"
 
 def get_args():
     parser = argparse.ArgumentParser(description='Trainer for lstm-gan model.')
